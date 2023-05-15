@@ -5,8 +5,14 @@
 }
 body{
     min-height:100vh;
-     background-image: url("image3.jpeg");
-     background-repeat: no-repeat;
+    background-image: url("image3.jpeg");
+    background-repeat: no-repeat;
+    /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: cover;
+  width: 100%;
     
     display: flex;
     justify-content: center;
